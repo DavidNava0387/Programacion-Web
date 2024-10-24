@@ -1,12 +1,12 @@
 //arreglos
-
+/*
 let array = ["dato1", 1, Boolean];
 console.log("Tamaño array: " + array.length);
 array.push("Insert Nuevo valor");
 console.log(array[3]);
 console.log("Nuevo Tamaño array: " + array.length);
 console.log(array[3]);
-
+*/
 /*
 5*1
 5*2
@@ -16,7 +16,7 @@ console.log(array[3]);
 5*6
 fin del arregllo valor de la posicion = 30
 */ 
-
+/*
 let tabl = [];
 const x = 5;
 var res;
@@ -31,13 +31,15 @@ for(let i=1; i<=10; i++) {
 
 console.log("Fin del arreglo, valor de la poscion = " + tabl[5]);
 console.log("Nuevo Tamaño array: " + tabl.length);
+*/
 
 /*
-for(i=1; i<7; i++) {
-    const x = 5;
-    console.log(x + "*" + i + "=" + i*x)
-    res = i*x;
-}
+let array = ["dato1", "dato2", "dato3"];
+array.push("dato4");
+console.log(array[3]);
 
-console.log("Fin del arreglo, valor de la poscion = " + res);
+//Eliminar
+array.splice(1,1);
+console.log(array);
 */
+
