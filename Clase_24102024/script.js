@@ -42,4 +42,3 @@ console.log(array[3]);
 array.splice(1,1);
 console.log(array);
 */
-
